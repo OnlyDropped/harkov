@@ -1,0 +1,17 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+}
+.container {
+  max-width: 1910px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.title {
+  @extend %OpenSans-700;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: left;
+  color: #383838;
+  margin-bottom: 50px;
+}
