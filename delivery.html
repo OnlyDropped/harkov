@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/modernizr.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-delivery">
+        <img
+          class="header-delivery__img"
+          src="img/icon/delivery-truck.svg"
+          alt="delivery logo"
+        />
+        <p class="header-delivery__text">
+          Доставка и сборка по Харькову бесплатно!
+        </p>
+      </div>
+      <div class="header-info">
+        <div class="container">
+          <div class="header-info__inner">
+            <p class="header-info__text">
+              kharkivmebel - интернет-магазин качественной мебели
+            </p>
+            <a class="header-info__location" href="#">
+              <img src="img/icon/location.svg" alt="location logo" />
+              Харьков
+            </a>
+            <a
+              class="header-info__message"
+              href="mailto:kharkivmebelinfo@gmail.com"
+            >
+              <img src="img/icon/message.svg" alt="message logo" />
+              kharkivmebelinfo@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header-menu">
+        <div class="container">
+          <div class="header-menu__inner">
+            <a class="header-menu__logo" href="#">
+              <img src="img/icon/logo.svg" alt="logo" />
+            </a>
+            <!--
+            <button class="header-menu__dropdown cd-dropdown-trigger">
+              <img src="img/icon/menu-dropdown.svg" alt="menu logo" />
+              Каталог
+            </button>
+            -->
+            <div class="cd-dropdown-wrapper">
+              <a class="cd-dropdown-trigger header-menu__dropdown" href="#0">
+                <img src="img/icon/menu-dropdown.svg" alt="menu logo" />
+                Каталог</a>
+              <nav class="cd-dropdown">
+                <h2>Title</h2>
+                <a href="#0" class="cd-close">Close</a>
+                <ul class="cd-dropdown-content">
+                  <!-- <li>
+                    <form class="cd-search">
+                      <input type="search" placeholder="Search..." />
+                    </form>
+                  </li>
+-->
+                  <li class="has-children">
+                    <a class="has-children__link href="#"
+                      >Диваны и кресла</a
+                    >
+                  <ul class="cd-dropdown-gallery is-hidden" style="width: 885px;">
+                      <!--<li class="go-back"><a href="#0">Меню</a></li>-->
+                      <li>
+                        <a class="cd-dropdown-item" href="#" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                          <svg width="155" height="49" viewBox="0 0 155 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3 49H9V48H3V49ZM146 49H152V48H146V49ZM121 11H120V13H118V14H120V16H121V14H123V13H121V11ZM151 18H144V5C144 2.2 141.8 0 139 0H16C13.2 0 11 2.2 11 5V18H4C1.8 18 0 19.8 0 22V47H12V45H143V47H155V22C155 19.8 153.2 18 151 18ZM11 23H1V24H11V46H1V22C1 20.3 2.3 19 4 19H11V23ZM143 44H12V37H143V44ZM143 36H12V27H143V36ZM143 18V26H12V5C12 2.8 13.8 1 16 1H55V21H56V1H98V21H99V1H139C141.2 1 143 2.8 143 5V18ZM154 46H144V24H154V46ZM154 23H144V19H151C152.7 19 154 20.3 154 22V23ZM78 11H77V13H75V14H77V16H78V14H80V13H78V11ZM36 11H35V13H33V14H35V16H36V14H38V13H36V11Z" fill="#72BF44"/>
+                          </svg>
+                          <h3>Диваны прямые</h3>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="cd-dropdown-item"
+                          href="#"
+                        >
+                          <svg width="159" height="47" viewBox="0 0 159 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M59 1H104V0H59V1ZM11 5V13H4C1.8 13 0 14.8 0 17V43H56V1H55V24H12V5C12 2.8 13.8 1 16 1H56V0H16C13.2 0 11 2.2 11 5ZM11 18H1V19H11V42H1V17C1 15.3 2.3 14 4 14H11V18ZM12 25H55V34H12V25ZM12 35H55V42H12V35ZM155 13H148V5C148 2.2 145.8 0 143 0H107V43.5L110.5 47H156V43H159V17C159 14.8 157.2 13 155 13ZM110 45.1L108 43V35H110V45.1ZM110 34H108V25H110V34ZM108 24V1H143C145.2 1 147 2.8 147 5V24H108ZM155 46H111V35H155V46ZM155 34H111V25H155V34ZM158 18H148V19H158V42H156V24H148V14H155C156.7 14 158 15.3 158 17V18ZM34 15V13H36V12H34V10H33V12H31V13H33V15H34ZM104 1H103V24H60V1H59V43H104V1ZM103 42H60V35H103V42ZM103 34H60V25H103V34ZM81 10V12H79V13H81V15H82V13H84V12H82V10H81ZM128 10H127V12H125V13H127V15H128V13H130V12H128V10Z" fill="#383838"/>
+                          </svg>
+                          <h3>Диваны угловые</h3>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item"
+                          href="#"
+                        >
+                          <svg width="123" height="49" viewBox="0 0 123 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M114 49H120V48H114V49ZM119 18H112V5C112 2.2 109.8 0 107 0H19C16.2 0 14 2.2 14 5V18H7C4.8 18 3 19.8 3 22V26H0V49H43L47 45H111V47H123V22C123 19.8 121.2 18 119 18ZM4 22C4 20.3 5.3 19 7 19H14V26H4V22ZM42 48H1V42H42V48ZM46 44.4C46 44.4 44.3 46.1 43 47.2V41.1L46 38.7V44.4ZM46 37.5L43 39.9V27H46V37.5ZM111 44H47V38H111V37H47V27H111V44ZM111 26H40V27H42V41H1V27H40V26H15V5C15 2.8 16.8 1 19 1H47V21H48V1H79V21H80V1H107C109.2 1 111 2.8 111 5V26ZM122 46H112V24H122V46ZM122 23H112V19H119C120.7 19 122 20.3 122 22V23ZM64 12H63V14H61V15H63V17H64V15H66V14H64V12ZM96 12H95V14H93V15H95V17H96V15H98V14H96V12ZM32 12H31V14H29V15H31V17H32V15H34V14H32V12Z" fill="#383838"/>
+                          </svg>
+                          <h3>Диваны модульные</h3>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item"
+                          href="#"
+                        >
+                          <svg width="92" height="49" viewBox="0 0 92 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M24.5 11H23.5V13H21.5V14H23.5V16H24.5V14H26.5V13H24.5V11ZM85.5 6H81.5V28.7C80.4 27.1 78.6 26 76.5 26V7H81.5V6H76.5C76.5 2.7 73.8 0 70.5 0H11.5C8.2 0 5.5 2.7 5.5 6V26.1C2.7 26.6 0.5 29 0.5 32V44H2.5V49H3.5V44H17.5V49H82.5V42H85.5C88.8 42 91.5 39.3 91.5 36V12C91.5 8.7 88.8 6 85.5 6ZM6.5 6C6.5 3.2 8.7 1 11.5 1H40.5V18H41.5V1H70.5C73.3 1 75.5 3.2 75.5 6V26H6.5V6ZM81.5 48H18.5V44H81.5V48ZM81.5 43H1.5V38H81.5V43ZM81.5 37H1.5V32C1.5 29.2 3.7 27 6.5 27H76.5C79.3 27 81.5 29.2 81.5 32V37ZM90.5 36C90.5 38.8 88.3 41 85.5 41H82.5V7H85.5C88.3 7 90.5 9.2 90.5 12V36ZM59.5 11H58.5V13H56.5V14H58.5V16H59.5V14H61.5V13H59.5V11Z" fill="#383838"/>
+                          </svg>
+                          <h3>Диваны детские</h3>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="cd-dropdown-item" href="#" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                          <svg width="155" height="49" viewBox="0 0 155 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3 49H9V48H3V49ZM146 49H152V48H146V49ZM121 11H120V13H118V14H120V16H121V14H123V13H121V11ZM151 18H144V5C144 2.2 141.8 0 139 0H16C13.2 0 11 2.2 11 5V18H4C1.8 18 0 19.8 0 22V47H12V45H143V47H155V22C155 19.8 153.2 18 151 18ZM11 23H1V24H11V46H1V22C1 20.3 2.3 19 4 19H11V23ZM143 44H12V37H143V44ZM143 36H12V27H143V36ZM143 18V26H12V5C12 2.8 13.8 1 16 1H55V21H56V1H98V21H99V1H139C141.2 1 143 2.8 143 5V18ZM154 46H144V24H154V46ZM154 23H144V19H151C152.7 19 154 20.3 154 22V23ZM78 11H77V13H75V14H77V16H78V14H80V13H78V11ZM36 11H35V13H33V14H35V16H36V14H38V13H36V11Z" fill="#72BF44"/>
+                          </svg>
+                          <h3>Диваны прямые</h3>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="cd-dropdown-item"
+                          href="#"
+                        >
+                          <svg width="159" height="47" viewBox="0 0 159 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M59 1H104V0H59V1ZM11 5V13H4C1.8 13 0 14.8 0 17V43H56V1H55V24H12V5C12 2.8 13.8 1 16 1H56V0H16C13.2 0 11 2.2 11 5ZM11 18H1V19H11V42H1V17C1 15.3 2.3 14 4 14H11V18ZM12 25H55V34H12V25ZM12 35H55V42H12V35ZM155 13H148V5C148 2.2 145.8 0 143 0H107V43.5L110.5 47H156V43H159V17C159 14.8 157.2 13 155 13ZM110 45.1L108 43V35H110V45.1ZM110 34H108V25H110V34ZM108 24V1H143C145.2 1 147 2.8 147 5V24H108ZM155 46H111V35H155V46ZM155 34H111V25H155V34ZM158 18H148V19H158V42H156V24H148V14H155C156.7 14 158 15.3 158 17V18ZM34 15V13H36V12H34V10H33V12H31V13H33V15H34ZM104 1H103V24H60V1H59V43H104V1ZM103 42H60V35H103V42ZM103 34H60V25H103V34ZM81 10V12H79V13H81V15H82V13H84V12H82V10H81ZM128 10H127V12H125V13H127V15H128V13H130V12H128V10Z" fill="#383838"/>
+                          </svg>
+                          <h3>Диваны угловые</h3>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item"
+                          href="#"
+                        >
+                          <svg width="123" height="49" viewBox="0 0 123 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M114 49H120V48H114V49ZM119 18H112V5C112 2.2 109.8 0 107 0H19C16.2 0 14 2.2 14 5V18H7C4.8 18 3 19.8 3 22V26H0V49H43L47 45H111V47H123V22C123 19.8 121.2 18 119 18ZM4 22C4 20.3 5.3 19 7 19H14V26H4V22ZM42 48H1V42H42V48ZM46 44.4C46 44.4 44.3 46.1 43 47.2V41.1L46 38.7V44.4ZM46 37.5L43 39.9V27H46V37.5ZM111 44H47V38H111V37H47V27H111V44ZM111 26H40V27H42V41H1V27H40V26H15V5C15 2.8 16.8 1 19 1H47V21H48V1H79V21H80V1H107C109.2 1 111 2.8 111 5V26ZM122 46H112V24H122V46ZM122 23H112V19H119C120.7 19 122 20.3 122 22V23ZM64 12H63V14H61V15H63V17H64V15H66V14H64V12ZM96 12H95V14H93V15H95V17H96V15H98V14H96V12ZM32 12H31V14H29V15H31V17H32V15H34V14H32V12Z" fill="#383838"/>
+                          </svg>
+                          <h3>Диваны модульные</h3>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item"
+                          href="#"
+                        >
+                          <svg width="92" height="49" viewBox="0 0 92 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M24.5 11H23.5V13H21.5V14H23.5V16H24.5V14H26.5V13H24.5V11ZM85.5 6H81.5V28.7C80.4 27.1 78.6 26 76.5 26V7H81.5V6H76.5C76.5 2.7 73.8 0 70.5 0H11.5C8.2 0 5.5 2.7 5.5 6V26.1C2.7 26.6 0.5 29 0.5 32V44H2.5V49H3.5V44H17.5V49H82.5V42H85.5C88.8 42 91.5 39.3 91.5 36V12C91.5 8.7 88.8 6 85.5 6ZM6.5 6C6.5 3.2 8.7 1 11.5 1H40.5V18H41.5V1H70.5C73.3 1 75.5 3.2 75.5 6V26H6.5V6ZM81.5 48H18.5V44H81.5V48ZM81.5 43H1.5V38H81.5V43ZM81.5 37H1.5V32C1.5 29.2 3.7 27 6.5 27H76.5C79.3 27 81.5 29.2 81.5 32V37ZM90.5 36C90.5 38.8 88.3 41 85.5 41H82.5V7H85.5C88.3 7 90.5 9.2 90.5 12V36ZM59.5 11H58.5V13H56.5V14H58.5V16H59.5V14H61.5V13H59.5V11Z" fill="#383838"/>
+                          </svg>
+                          <h3>Диваны детские</h3>
+                        </a>
+                      </li>
+                    <li>
+                        <a
+                          class="cd-dropdown-item"
+                          href="#"
+                        >
+                          <svg width="92" height="49" viewBox="0 0 92 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M24.5 11H23.5V13H21.5V14H23.5V16H24.5V14H26.5V13H24.5V11ZM85.5 6H81.5V28.7C80.4 27.1 78.6 26 76.5 26V7H81.5V6H76.5C76.5 2.7 73.8 0 70.5 0H11.5C8.2 0 5.5 2.7 5.5 6V26.1C2.7 26.6 0.5 29 0.5 32V44H2.5V49H3.5V44H17.5V49H82.5V42H85.5C88.8 42 91.5 39.3 91.5 36V12C91.5 8.7 88.8 6 85.5 6ZM6.5 6C6.5 3.2 8.7 1 11.5 1H40.5V18H41.5V1H70.5C73.3 1 75.5 3.2 75.5 6V26H6.5V6ZM81.5 48H18.5V44H81.5V48ZM81.5 43H1.5V38H81.5V43ZM81.5 37H1.5V32C1.5 29.2 3.7 27 6.5 27H76.5C79.3 27 81.5 29.2 81.5 32V37ZM90.5 36C90.5 38.8 88.3 41 85.5 41H82.5V7H85.5C88.3 7 90.5 9.2 90.5 12V36ZM59.5 11H58.5V13H56.5V14H58.5V16H59.5V14H61.5V13H59.5V11Z" fill="#383838"/>
+                          </svg>
+                          <h3>Диваны детские</h3>
+                        </a>
+                      </li>  
+                    </ul>
+                    <!-- .cd-dropdown-gallery -->
+                  </li>
+
+                  <!-- .has-children -->
+
+                  <li class="has-children">
+                    <a class="has-children__link href="#"
+                      >Диваны и кресла</a
+                    >
+                    <ul class="cd-dropdown-gallery is-hidden" style="width: 885px;">
+                      <!--<li class="go-back"><a href="#0">Меню</a></li>-->
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item"
+                          href="#"
+                        >
+                          <svg width="159" height="47" viewBox="0 0 159 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M59 1H104V0H59V1ZM11 5V13H4C1.8 13 0 14.8 0 17V43H56V1H55V24H12V5C12 2.8 13.8 1 16 1H56V0H16C13.2 0 11 2.2 11 5ZM11 18H1V19H11V42H1V17C1 15.3 2.3 14 4 14H11V18ZM12 25H55V34H12V25ZM12 35H55V42H12V35ZM155 13H148V5C148 2.2 145.8 0 143 0H107V43.5L110.5 47H156V43H159V17C159 14.8 157.2 13 155 13ZM110 45.1L108 43V35H110V45.1ZM110 34H108V25H110V34ZM108 24V1H143C145.2 1 147 2.8 147 5V24H108ZM155 46H111V35H155V46ZM155 34H111V25H155V34ZM158 18H148V19H158V42H156V24H148V14H155C156.7 14 158 15.3 158 17V18ZM34 15V13H36V12H34V10H33V12H31V13H33V15H34ZM104 1H103V24H60V1H59V43H104V1ZM103 42H60V35H103V42ZM103 34H60V25H103V34ZM81 10V12H79V13H81V15H82V13H84V12H82V10H81ZM128 10H127V12H125V13H127V15H128V13H130V12H128V10Z" fill="#383838"/>
+                          </svg>
+                          <h3>Диваны угловые</h3>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="cd-dropdown-item" href="#" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                          <svg width="155" height="49" viewBox="0 0 155 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3 49H9V48H3V49ZM146 49H152V48H146V49ZM121 11H120V13H118V14H120V16H121V14H123V13H121V11ZM151 18H144V5C144 2.2 141.8 0 139 0H16C13.2 0 11 2.2 11 5V18H4C1.8 18 0 19.8 0 22V47H12V45H143V47H155V22C155 19.8 153.2 18 151 18ZM11 23H1V24H11V46H1V22C1 20.3 2.3 19 4 19H11V23ZM143 44H12V37H143V44ZM143 36H12V27H143V36ZM143 18V26H12V5C12 2.8 13.8 1 16 1H55V21H56V1H98V21H99V1H139C141.2 1 143 2.8 143 5V18ZM154 46H144V24H154V46ZM154 23H144V19H151C152.7 19 154 20.3 154 22V23ZM78 11H77V13H75V14H77V16H78V14H80V13H78V11ZM36 11H35V13H33V14H35V16H36V14H38V13H36V11Z" fill="#72BF44"/>
+                          </svg>
+                          <h3>Диваны прямые</h3>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="cd-dropdown-item"
+                          href="#"
+                        >
+                          <svg width="123" height="49" viewBox="0 0 123 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M114 49H120V48H114V49ZM119 18H112V5C112 2.2 109.8 0 107 0H19C16.2 0 14 2.2 14 5V18H7C4.8 18 3 19.8 3 22V26H0V49H43L47 45H111V47H123V22C123 19.8 121.2 18 119 18ZM4 22C4 20.3 5.3 19 7 19H14V26H4V22ZM42 48H1V42H42V48ZM46 44.4C46 44.4 44.3 46.1 43 47.2V41.1L46 38.7V44.4ZM46 37.5L43 39.9V27H46V37.5ZM111 44H47V38H111V37H47V27H111V44ZM111 26H40V27H42V41H1V27H40V26H15V5C15 2.8 16.8 1 19 1H47V21H48V1H79V21H80V1H107C109.2 1 111 2.8 111 5V26ZM122 46H112V24H122V46ZM122 23H112V19H119C120.7 19 122 20.3 122 22V23ZM64 12H63V14H61V15H63V17H64V15H66V14H64V12ZM96 12H95V14H93V15H95V17H96V15H98V14H96V12ZM32 12H31V14H29V15H31V17H32V15H34V14H32V12Z" fill="#383838"/>
+                          </svg>
+                          <h3>Диваны модульные</h3>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item"
+                          href="#"
+                        >
+                          <svg width="92" height="49" viewBox="0 0 92 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M24.5 11H23.5V13H21.5V14H23.5V16H24.5V14H26.5V13H24.5V11ZM85.5 6H81.5V28.7C80.4 27.1 78.6 26 76.5 26V7H81.5V6H76.5C76.5 2.7 73.8 0 70.5 0H11.5C8.2 0 5.5 2.7 5.5 6V26.1C2.7 26.6 0.5 29 0.5 32V44H2.5V49H3.5V44H17.5V49H82.5V42H85.5C88.8 42 91.5 39.3 91.5 36V12C91.5 8.7 88.8 6 85.5 6ZM6.5 6C6.5 3.2 8.7 1 11.5 1H40.5V18H41.5V1H70.5C73.3 1 75.5 3.2 75.5 6V26H6.5V6ZM81.5 48H18.5V44H81.5V48ZM81.5 43H1.5V38H81.5V43ZM81.5 37H1.5V32C1.5 29.2 3.7 27 6.5 27H76.5C79.3 27 81.5 29.2 81.5 32V37ZM90.5 36C90.5 38.8 88.3 41 85.5 41H82.5V7H85.5C88.3 7 90.5 9.2 90.5 12V36ZM59.5 11H58.5V13H56.5V14H58.5V16H59.5V14H61.5V13H59.5V11Z" fill="#383838"/>
+                          </svg>
+                          <h3>Диваны детские</h3>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="cd-dropdown-item" href="#" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                          <svg width="155" height="49" viewBox="0 0 155 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3 49H9V48H3V49ZM146 49H152V48H146V49ZM121 11H120V13H118V14H120V16H121V14H123V13H121V11ZM151 18H144V5C144 2.2 141.8 0 139 0H16C13.2 0 11 2.2 11 5V18H4C1.8 18 0 19.8 0 22V47H12V45H143V47H155V22C155 19.8 153.2 18 151 18ZM11 23H1V24H11V46H1V22C1 20.3 2.3 19 4 19H11V23ZM143 44H12V37H143V44ZM143 36H12V27H143V36ZM143 18V26H12V5C12 2.8 13.8 1 16 1H55V21H56V1H98V21H99V1H139C141.2 1 143 2.8 143 5V18ZM154 46H144V24H154V46ZM154 23H144V19H151C152.7 19 154 20.3 154 22V23ZM78 11H77V13H75V14H77V16H78V14H80V13H78V11ZM36 11H35V13H33V14H35V16H36V14H38V13H36V11Z" fill="#72BF44"/>
+                          </svg>
+                          <h3>Диваны прямые</h3>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="cd-dropdown-item"
+                          href="#"
+                        >
+                          <svg width="159" height="47" viewBox="0 0 159 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M59 1H104V0H59V1ZM11 5V13H4C1.8 13 0 14.8 0 17V43H56V1H55V24H12V5C12 2.8 13.8 1 16 1H56V0H16C13.2 0 11 2.2 11 5ZM11 18H1V19H11V42H1V17C1 15.3 2.3 14 4 14H11V18ZM12 25H55V34H12V25ZM12 35H55V42H12V35ZM155 13H148V5C148 2.2 145.8 0 143 0H107V43.5L110.5 47H156V43H159V17C159 14.8 157.2 13 155 13ZM110 45.1L108 43V35H110V45.1ZM110 34H108V25H110V34ZM108 24V1H143C145.2 1 147 2.8 147 5V24H108ZM155 46H111V35H155V46ZM155 34H111V25H155V34ZM158 18H148V19H158V42H156V24H148V14H155C156.7 14 158 15.3 158 17V18ZM34 15V13H36V12H34V10H33V12H31V13H33V15H34ZM104 1H103V24H60V1H59V43H104V1ZM103 42H60V35H103V42ZM103 34H60V25H103V34ZM81 10V12H79V13H81V15H82V13H84V12H82V10H81ZM128 10H127V12H125V13H127V15H128V13H130V12H128V10Z" fill="#383838"/>
+                          </svg>
+                          <h3>Диваны угловые</h3>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item"
+                          href="#"
+                        >
+                          <svg width="123" height="49" viewBox="0 0 123 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M114 49H120V48H114V49ZM119 18H112V5C112 2.2 109.8 0 107 0H19C16.2 0 14 2.2 14 5V18H7C4.8 18 3 19.8 3 22V26H0V49H43L47 45H111V47H123V22C123 19.8 121.2 18 119 18ZM4 22C4 20.3 5.3 19 7 19H14V26H4V22ZM42 48H1V42H42V48ZM46 44.4C46 44.4 44.3 46.1 43 47.2V41.1L46 38.7V44.4ZM46 37.5L43 39.9V27H46V37.5ZM111 44H47V38H111V37H47V27H111V44ZM111 26H40V27H42V41H1V27H40V26H15V5C15 2.8 16.8 1 19 1H47V21H48V1H79V21H80V1H107C109.2 1 111 2.8 111 5V26ZM122 46H112V24H122V46ZM122 23H112V19H119C120.7 19 122 20.3 122 22V23ZM64 12H63V14H61V15H63V17H64V15H66V14H64V12ZM96 12H95V14H93V15H95V17H96V15H98V14H96V12ZM32 12H31V14H29V15H31V17H32V15H34V14H32V12Z" fill="#383838"/>
+                          </svg>
+                          <h3>Диваны модульные</h3>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item"
+                          href="#"
+                        >
+                          <svg width="92" height="49" viewBox="0 0 92 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M24.5 11H23.5V13H21.5V14H23.5V16H24.5V14H26.5V13H24.5V11ZM85.5 6H81.5V28.7C80.4 27.1 78.6 26 76.5 26V7H81.5V6H76.5C76.5 2.7 73.8 0 70.5 0H11.5C8.2 0 5.5 2.7 5.5 6V26.1C2.7 26.6 0.5 29 0.5 32V44H2.5V49H3.5V44H17.5V49H82.5V42H85.5C88.8 42 91.5 39.3 91.5 36V12C91.5 8.7 88.8 6 85.5 6ZM6.5 6C6.5 3.2 8.7 1 11.5 1H40.5V18H41.5V1H70.5C73.3 1 75.5 3.2 75.5 6V26H6.5V6ZM81.5 48H18.5V44H81.5V48ZM81.5 43H1.5V38H81.5V43ZM81.5 37H1.5V32C1.5 29.2 3.7 27 6.5 27H76.5C79.3 27 81.5 29.2 81.5 32V37ZM90.5 36C90.5 38.8 88.3 41 85.5 41H82.5V7H85.5C88.3 7 90.5 9.2 90.5 12V36ZM59.5 11H58.5V13H56.5V14H58.5V16H59.5V14H61.5V13H59.5V11Z" fill="#383838"/>
+                          </svg>
+                          <h3>Диваны детские</h3>
+                        </a>
+                      </li>
+                    <li>
+                        <a
+                          class="cd-dropdown-item"
+                          href="#"
+                        >
+                          <svg width="92" height="49" viewBox="0 0 92 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M24.5 11H23.5V13H21.5V14H23.5V16H24.5V14H26.5V13H24.5V11ZM85.5 6H81.5V28.7C80.4 27.1 78.6 26 76.5 26V7H81.5V6H76.5C76.5 2.7 73.8 0 70.5 0H11.5C8.2 0 5.5 2.7 5.5 6V26.1C2.7 26.6 0.5 29 0.5 32V44H2.5V49H3.5V44H17.5V49H82.5V42H85.5C88.8 42 91.5 39.3 91.5 36V12C91.5 8.7 88.8 6 85.5 6ZM6.5 6C6.5 3.2 8.7 1 11.5 1H40.5V18H41.5V1H70.5C73.3 1 75.5 3.2 75.5 6V26H6.5V6ZM81.5 48H18.5V44H81.5V48ZM81.5 43H1.5V38H81.5V43ZM81.5 37H1.5V32C1.5 29.2 3.7 27 6.5 27H76.5C79.3 27 81.5 29.2 81.5 32V37ZM90.5 36C90.5 38.8 88.3 41 85.5 41H82.5V7H85.5C88.3 7 90.5 9.2 90.5 12V36ZM59.5 11H58.5V13H56.5V14H58.5V16H59.5V14H61.5V13H59.5V11Z" fill="#383838"/>
+                          </svg>
+                          <h3>Диваны детские</h3>
+                        </a>
+                      </li>  
+                    </ul>
+                    <!-- .cd-dropdown-gallery -->
+                  </li>
+                  
+                  <!-- .has-children -->
+                  <!--
+                  <li class="has-children">
+                    <a href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                      >Services</a
+                    >
+                    <ul class="cd-dropdown-icons is-hidden">
+                      <li class="go-back"><a href="#0">Menu</a></li>
+                      <li class="see-all">
+                        <a href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                          >Browse Services</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="cd-dropdown-item item-1"
+                          href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                        >
+                          <h3>Service #1</h3>
+                          <p>This is the item description</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item item-2"
+                          href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                        >
+                          <h3>Service #2</h3>
+                          <p>This is the item description</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item item-3"
+                          href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                        >
+                          <h3>Service #3</h3>
+                          <p>This is the item description</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item item-4"
+                          href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                        >
+                          <h3>Service #4</h3>
+                          <p>This is the item description</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item item-5"
+                          href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                        >
+                          <h3>Service #5</h3>
+                          <p>This is the item description</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item item-6"
+                          href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                        >
+                          <h3>Service #6</h3>
+                          <p>This is the item description</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item item-7"
+                          href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                        >
+                          <h3>Service #7</h3>
+                          <p>This is the item description</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item item-8"
+                          href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                        >
+                          <h3>Service #8</h3>
+                          <p>This is the item description</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item item-9"
+                          href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                        >
+                          <h3>Service #9</h3>
+                          <p>This is the item description</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item item-10"
+                          href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                        >
+                          <h3>Service #10</h3>
+                          <p>This is the item description</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item item-11"
+                          href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                        >
+                          <h3>Service #11</h3>
+                          <p>This is the item description</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="cd-dropdown-item item-12"
+                          href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                        >
+                          <h3>Service #12</h3>
+                          <p>This is the item description</p>
+                        </a>
+                      </li>
+                    </ul>
+                    <!-- .cd-dropdown-icons -->
+                  </li>
+                  <!-- .has-children -->
+
+<!--                  <li class="cd-divider">Divider</li>
+
+                  <li>
+                    <a href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                      >Page 1</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                      >Page 2</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://s-sd.ru/blog_studio_design/mega-menyu/"
+                      >Page 3</a
+                    >
+                  </li>
+-->
+                </ul>
+                <!-- .cd-dropdown-content -->
+              </nav>
+              <!-- .cd-dropdown -->
+            </div>
+            <!-- .cd-dropdown-wrapper -->
+            <form class="header-menu__form" action="#">
+              <input
+                class="header-menu__input"
+                type="text"
+                placeholder="Искать Товар"
+              />
+              <!--
+              <a class="header-menu__search" href="#">
+                <img src="img/icon/search.svg" alt="search logo">
+              </a>-->
+            </form>
+            <a class="header-menu__phone" href="tel:+380937172929"
+              >+38093-717-29-29</a
+            >
+            <div class="header-menu__heart">
+              <img
+                class="header-menu__heart-img"
+                src="img/icon/heart.svg"
+                alt="heart logo"
+              />
+              <div class="header-menu__count">3</div>
+            </div>
+            <div class="header-menu__cart">
+              <img
+                class="header-menu__cart-img"
+                src="img/icon/cart.svg"
+                alt="cart logo"
+              />
+              <div class="header-menu__count">3</div>
+            </div>
+            <div class="header-menu__profile">
+              <img
+                class="header-menu__img"
+                src="img/icon/profile.svg"
+                alt="profile logo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav">
+        <div class="container">
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a class="header-nav__link header-nav__link--active" href="#"
+                >Харьков мебель</a
+              >
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Про нас</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Мебель под заказ</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Шкафы купе</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Доставка / оплата</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Контакты</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Письмо директору</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Бренды</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Дизайн интерьера</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+<main class="main">
+    <section class="breadcrumbs">
+      <div class="container">
+        <div class="breadcrumbs__inner">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="">Главная</a></li>
+            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="">Оплата и доставка</a></li>
+          </ul>
+        </div>
+      </div>
+  </section>
+  <section class="delivery">
+    <div class="container">
+      <h1 class="title">Оплата и доставка</h1>
+      <div class="delivery__inner">
+        <img class="delivery__img" src="img/delivery-bg.png" alt="delivery img">
+        <div class="delivery__info">
+          <div class="delivery__wrap">
+            <h3 class="delivery__wrap-title">Удобно, выгодно и безопасно</h3>
+            <p class="delivery__wrap-text">МЕГА ДОМ - самый большой интернет-магазин мебели в Украине. Здесь можно найти любую мебель, которая поможет вам воплотить самые смелые мечты и пожелания в интерьере, создать настоящий уют.</p>
+            <p class="delivery__wrap-text">Мы предлагаем продукцию по приятной цене и предоставляем выгодные условия доставки и сборки. Оформляйте заказ на сумму от 10 000 грн. и гарантировано получайте бесплатную доставку и сборку в Харькове, Полтаве, Днепре, Одессе и Львове.</p>
+            <p class="delivery__wrap-text">На всю продукцию предоставляется гарантия от 12 до 18 месяцев </p>
+          </div>
+          <div class="delivery__wrap">
+            <h3 class="delivery__wrap-title">Наша цель — счастливые клиенты</h3>
+            <p class="delivery__wrap-text">Мы знаем, что мебель способна сделать жизнь комфортнее, приятнее и ярче. Поэтому и поиск необходимой мебели должен быть легким, быстрым и удобным. Мы помогаем найти то, что нужно именно Вам, в одном месте. Все заботы мы берем на себя, исполняем ваши желания и гарантируем сервис, который делает вашу жизнь счастливее.</p>
+          </div>
+          <div class="delivery__wrap">
+            <h3 class="delivery__wrap-title">Осуществлять мечты легко</h3>
+            <p class="delivery__wrap-text">Мы работаем по всей Украине, сотрудничаем с ведущими производителями мебели, чтобы вы могли легко подобрать любую мебель. Мы хотим, чтобы наши клиенты получали лучший сервис, поэтому реализуем комплексный подход: доставка, сборка, гарантийное обслуживание.</p>
+          </div>
+          <div class="delivery__wrap">
+            <h3 class="delivery__wrap-title">Удобная доставка</h3>
+            <p class="delivery__wrap-text">Любой товар можно заказать с доставкой. Все комплексные заказы на сумму от 10 000 грн. мы доставляем и собираем бесплатно и оперативно.
+            При наличии мебели на складе, доставка и сборка по Харькову - в течение суток, по Украине - в течение 3 рабочих дней. Всё — с минимальной предоплатой, если необходимо — в рассрочку или кредит. Возможна, как безналичная, так и наличная оплата - выбор за вами..Мы работаем по всей Украине, сотрудничаем с ведущими производителями мебели, чтобы вы могли легко подобрать любую мебель. Мы хотим, чтобы наши клиенты получали лучший сервис, поэтому реализуем комплексный подход: доставка, сборка, гарантийное обслуживание.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section class="banner banner-about">
+        <div class="container">
+          <div
+            class="banner__inner"
+            style="background-image: url('img/banner.svg')"
+          >
+            <div class="banner__wrapper">
+              <div class="banner__info">
+                <h4 class="banner__info-title">Подпишитесь на рассылку</h4>
+                <p class="banner__info-text">
+                  Узнавайте первыми о выгодных предложениях !
+                </p>
+              </div>
+              <form class="banner__form" action="#">
+                <div class="banner__form-input">
+                  <input
+                    class="banner__form-text"
+                    type="text"
+                    placeholder="Введите e-mail"
+                  />
+                  <button class="banner__form-btn" type="submit">
+                    <img
+                      class="banner__form-logo"
+                      src="img/icon/candy-box.svg"
+                      alt="candy logo"
+                    />
+                    Подписаться
+                  </button>
+                </div>
+                <label class="custom-checkbox">
+                  <input class="hidden-checkbox" type="checkbox" />
+                  <div class="checkbox">
+                    <svg
+                      class="checkmark"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="9"
+                      height="6"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="#ffffff"
+                        d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="custom-checkbox__text">
+                    Нажимая на кнопку, вы принимаете условия обработки
+                    персональных данных
+                  </div>
+                </label>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+</main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-top__info">
+            <a class="footer-top__logo" href="#">
+              <img src="img/icon/logo.svg" alt="footer logo" />
+            </a>
+            <a class="footer-top__phone" href="tel:+380937172929">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.95878 1.73627C3.03737 1.65768 3.07666 1.61839 3.11128 1.58658C3.96244 0.804473 5.27075 0.804473 6.12191 1.58658C6.15653 1.61839 6.19582 1.65768 6.27441 1.73627L7.89651 3.35837C8.78872 4.25058 9.04389 5.59796 8.53971 6.75463C8.03552 7.91129 8.29069 9.25867 9.1829 10.1509L11.8491 12.8171C12.7413 13.7093 14.0887 13.9645 15.2454 13.4603C16.402 12.9561 17.7494 13.2113 18.6416 14.1035L20.2637 15.7256C20.3423 15.8042 20.3816 15.8435 20.4134 15.8781C21.1955 16.7292 21.1955 18.0376 20.4134 18.8887C20.3816 18.9233 20.3423 18.9626 20.2637 19.0412L19.2778 20.0272C18.4748 20.8301 17.3173 21.1672 16.2089 20.9209C8.6561 19.2425 2.75754 13.3439 1.07915 5.79113C0.832822 4.68266 1.16988 3.52517 1.97281 2.72224L2.95878 1.73627Z"
+                  stroke="#72BF44"
+                  stroke-width="1.5"
+                />
+              </svg>
+              +38093-717-29-29
+            </a>
+            <a
+              class="footer-top__email"
+              href="mailto:kharkivmebelinfo@gmail.com"
+            >
+              <svg
+                width="20"
+                height="18"
+                viewBox="0 0 20 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.7398 3.73482C18.1223 4.59062 18.2843 5.75718 18.5628 7.76267C18.9904 10.8409 19.2041 12.3799 18.7341 13.5753C18.3215 14.6247 17.5596 15.4997 16.5769 16.0528C15.4576 16.6828 13.9037 16.6828 10.796 16.6828H9.20401C6.09627 16.6828 4.5424 16.6828 3.42307 16.0528C2.44041 15.4997 1.67853 14.6247 1.2659 13.5753C0.795874 12.3799 1.00964 10.8409 1.43716 7.76267C1.69797 5.88488 1.85662 4.74259 2.1897 3.90222M17.7398 3.73482C17.6652 3.56771 17.5821 3.41245 17.4881 3.26511C16.9811 2.47034 16.2556 1.83867 15.3986 1.44582C14.4262 1 13.2161 1 10.796 1H9.20401C6.7839 1 5.57385 1 4.60135 1.44582C3.7444 1.83867 3.01892 2.47034 2.51192 3.26511C2.38727 3.4605 2.28181 3.66982 2.1897 3.90222M17.7398 3.73482L17.6531 3.82161L16.8119 4.66271C13.5447 7.92996 11.9111 9.56359 9.88107 9.56359C7.85106 9.56359 6.21744 7.92996 2.95019 4.66271L2.1897 3.90222"
+                  stroke="#72BF44"
+                  stroke-width="1.5"
+                />
+              </svg>
+              kharkivmebelinfo@gmail.com
+            </a>
+            <a class="footer-top__city" href="#">
+              <svg
+                width="20"
+                height="26"
+                viewBox="0 0 20 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.1284 22.038L12.5382 21.5752L13.1284 22.038ZM6.87161 22.038L6.28143 22.5009L6.87161 22.038ZM10 24.6312V23.8812V24.6312ZM18.25 10.6848C18.25 12.0905 17.5195 13.955 16.3858 15.9592C15.2688 17.934 13.8262 19.9328 12.5382 21.5752L13.7186 22.5009C15.0291 20.8297 16.5223 18.7647 17.6914 16.6977C18.844 14.6601 19.75 12.5047 19.75 10.6848H18.25ZM7.46178 21.5752C6.17382 19.9328 4.73122 17.934 3.61418 15.9592C2.48054 13.955 1.75 12.0905 1.75 10.6848H0.25C0.25 12.5047 1.15603 14.6601 2.30857 16.6977C3.47772 18.7647 4.97092 20.8297 6.28143 22.5009L7.46178 21.5752ZM1.75 10.6848C1.75 5.69749 5.4945 1.75 10 1.75V0.25C4.56438 0.25 0.25 4.97455 0.25 10.6848H1.75ZM10 1.75C14.5055 1.75 18.25 5.69749 18.25 10.6848H19.75C19.75 4.97455 15.4356 0.25 10 0.25V1.75ZM12.5382 21.5752C11.8439 22.4606 11.3799 23.0482 10.9621 23.4277C10.5764 23.7781 10.305 23.8812 10 23.8812V25.3812C10.7899 25.3812 11.4048 25.052 11.9707 24.538C12.5044 24.0532 13.0572 23.3443 13.7186 22.5009L12.5382 21.5752ZM6.28143 22.5009C6.94283 23.3443 7.49556 24.0532 8.02931 24.538C8.59517 25.052 9.21011 25.3812 10 25.3812V23.8812C9.695 23.8812 9.42358 23.7781 9.03788 23.4277C8.62008 23.0482 8.15606 22.4606 7.46178 21.5752L6.28143 22.5009ZM5.875 11.125C5.875 13.4032 7.72183 15.25 10 15.25V13.75C8.55025 13.75 7.375 12.5747 7.375 11.125H5.875ZM10 15.25C12.2782 15.25 14.125 13.4032 14.125 11.125H12.625C12.625 12.5747 11.4497 13.75 10 13.75V15.25ZM14.125 11.125C14.125 8.84683 12.2782 7 10 7V8.5C11.4497 8.5 12.625 9.67525 12.625 11.125H14.125ZM10 7C7.72183 7 5.875 8.84683 5.875 11.125H7.375C7.375 9.67525 8.55025 8.5 10 8.5V7Z"
+                  fill="#72BF44"
+                />
+              </svg>
+              Харьков
+            </a>
+            <ul class="footer-top__social-list">
+              <li class="footer-top__social-icon">
+                <a class="footer-top__social-link" href="#">
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M25 12.5C25 5.59644 19.4036 0 12.5 0C5.59644 0 0 5.59644 0 12.5C0 18.739 4.57104 23.9104 10.5469 24.8481V16.1133H7.37305V12.5H10.5469V9.74609C10.5469 6.61328 12.4131 4.88281 15.2683 4.88281C16.6355 4.88281 18.0664 5.12695 18.0664 5.12695V8.20312H16.4902C14.9375 8.20312 14.4531 9.16675 14.4531 10.1562V12.5H17.9199L17.3657 16.1133H14.4531V24.8481C20.429 23.9104 25 18.739 25 12.5Z"
+                      fill="#A7A7A7"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-top__social-icon">
+                <a class="footer-top__social-link" href="#">
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.5 2.25098C15.8398 2.25098 16.2354 2.26562 17.5488 2.32422C18.7695 2.37793 19.4287 2.58301 19.8682 2.75391C20.4492 2.97852 20.8691 3.25195 21.3037 3.68652C21.7432 4.12598 22.0117 4.54102 22.2363 5.12207C22.4072 5.56152 22.6123 6.22559 22.666 7.44141C22.7246 8.75977 22.7393 9.15527 22.7393 12.4902C22.7393 15.8301 22.7246 16.2256 22.666 17.5391C22.6123 18.7598 22.4072 19.4189 22.2363 19.8584C22.0117 20.4395 21.7383 20.8594 21.3037 21.2939C20.8643 21.7334 20.4492 22.002 19.8682 22.2266C19.4287 22.3975 18.7646 22.6025 17.5488 22.6563C16.2305 22.7148 15.835 22.7295 12.5 22.7295C9.16016 22.7295 8.76465 22.7148 7.45117 22.6563C6.23047 22.6025 5.57129 22.3975 5.13184 22.2266C4.55078 22.002 4.13086 21.7285 3.69629 21.2939C3.25684 20.8545 2.98828 20.4395 2.76367 19.8584C2.59277 19.4189 2.3877 18.7549 2.33398 17.5391C2.27539 16.2207 2.26074 15.8252 2.26074 12.4902C2.26074 9.15039 2.27539 8.75488 2.33398 7.44141C2.3877 6.2207 2.59277 5.56152 2.76367 5.12207C2.98828 4.54102 3.26172 4.12109 3.69629 3.68652C4.13574 3.24707 4.55078 2.97852 5.13184 2.75391C5.57129 2.58301 6.23535 2.37793 7.45117 2.32422C8.76465 2.26562 9.16016 2.25098 12.5 2.25098ZM12.5 0C9.10645 0 8.68164 0.0146484 7.34863 0.0732422C6.02051 0.131836 5.10742 0.34668 4.31641 0.654297C3.49121 0.976562 2.79297 1.40137 2.09961 2.09961C1.40137 2.79297 0.976562 3.49121 0.654297 4.31152C0.34668 5.10742 0.131836 6.01562 0.0732422 7.34375C0.0146484 8.68164 0 9.10645 0 12.5C0 15.8936 0.0146484 16.3184 0.0732422 17.6514C0.131836 18.9795 0.34668 19.8926 0.654297 20.6836C0.976562 21.5088 1.40137 22.207 2.09961 22.9004C2.79297 23.5938 3.49121 24.0234 4.31152 24.3408C5.10742 24.6484 6.01562 24.8633 7.34375 24.9219C8.67676 24.9805 9.10156 24.9951 12.4951 24.9951C15.8887 24.9951 16.3135 24.9805 17.6465 24.9219C18.9746 24.8633 19.8877 24.6484 20.6787 24.3408C21.499 24.0234 22.1973 23.5938 22.8906 22.9004C23.584 22.207 24.0137 21.5088 24.3311 20.6885C24.6387 19.8926 24.8535 18.9844 24.9121 17.6563C24.9707 16.3232 24.9854 15.8984 24.9854 12.5049C24.9854 9.11133 24.9707 8.68652 24.9121 7.35352C24.8535 6.02539 24.6387 5.11231 24.3311 4.32129C24.0234 3.49121 23.5986 2.79297 22.9004 2.09961C22.207 1.40625 21.5088 0.976563 20.6885 0.65918C19.8926 0.351562 18.9844 0.136719 17.6562 0.078125C16.3184 0.0146484 15.8936 0 12.5 0Z"
+                      fill="#A7A7A7"
+                    />
+                    <path
+                      d="M12.5 6.0791C8.95508 6.0791 6.0791 8.95508 6.0791 12.5C6.0791 16.0449 8.95508 18.9209 12.5 18.9209C16.0449 18.9209 18.9209 16.0449 18.9209 12.5C18.9209 8.95508 16.0449 6.0791 12.5 6.0791ZM12.5 16.665C10.2002 16.665 8.33496 14.7998 8.33496 12.5C8.33496 10.2002 10.2002 8.33496 12.5 8.33496C14.7998 8.33496 16.665 10.2002 16.665 12.5C16.665 14.7998 14.7998 16.665 12.5 16.665Z"
+                      fill="#A7A7A7"
+                    />
+                    <path
+                      d="M20.6738 5.8252C20.6738 6.65528 20 7.32422 19.1748 7.32422C18.3447 7.32422 17.6758 6.65039 17.6758 5.8252C17.6758 4.99512 18.3496 4.32617 19.1748 4.32617C20 4.32617 20.6738 5 20.6738 5.8252Z"
+                      fill="#A7A7A7"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-top__social-icon">
+                <a class="footer-top__social-link" href="#">
+                  <svg
+                    width="25"
+                    height="19"
+                    viewBox="0 0 25 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.751 4.5C24.751 4.5 24.5068 2.77637 23.7549 2.01953C22.8027 1.02344 21.7383 1.01855 21.25 0.959961C17.7539 0.706055 12.5049 0.706055 12.5049 0.706055H12.4951C12.4951 0.706055 7.24609 0.706055 3.75 0.959961C3.26172 1.01855 2.19727 1.02344 1.24512 2.01953C0.493164 2.77637 0.253906 4.5 0.253906 4.5C0.253906 4.5 0 6.52637 0 8.54785V10.4424C0 12.4639 0.249023 14.4902 0.249023 14.4902C0.249023 14.4902 0.493164 16.2139 1.24023 16.9707C2.19238 17.9668 3.44238 17.9326 3.99902 18.04C6.00098 18.2305 12.5 18.2891 12.5 18.2891C12.5 18.2891 17.7539 18.2793 21.25 18.0303C21.7383 17.9717 22.8027 17.9668 23.7549 16.9707C24.5068 16.2139 24.751 14.4902 24.751 14.4902C24.751 14.4902 25 12.4688 25 10.4424V8.54785C25 6.52637 24.751 4.5 24.751 4.5ZM9.91699 12.7422V5.71582L16.6699 9.24121L9.91699 12.7422Z"
+                      fill="#A7A7A7"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-top__social-icon">
+                <a class="footer-top__social-link" href="#">
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M25 12.5C25 19.4036 19.4036 25 12.5 25C5.59644 25 0 19.4036 0 12.5C0 5.59644 5.59644 0 12.5 0C19.4036 0 25 5.59644 25 12.5ZM12.9479 9.22799C11.7321 9.73369 9.30223 10.7804 5.65822 12.368C5.06649 12.6033 4.75652 12.8335 4.7283 13.0586C4.68061 13.439 5.15699 13.5888 5.8057 13.7928C5.89394 13.8205 5.98537 13.8493 6.0791 13.8797C6.71733 14.0872 7.57586 14.3299 8.02217 14.3396C8.42702 14.3483 8.87888 14.1814 9.37775 13.8388C12.7825 11.5406 14.54 10.3789 14.6503 10.3539C14.7282 10.3362 14.836 10.314 14.9091 10.379C14.9822 10.4439 14.975 10.5669 14.9673 10.5999C14.9201 10.8011 13.0501 12.5396 12.0824 13.4393C11.7807 13.7198 11.5667 13.9187 11.523 13.9641C11.425 14.0659 11.3251 14.1622 11.2291 14.2547C10.6362 14.8263 10.1916 15.255 11.2538 15.9549C11.7642 16.2913 12.1727 16.5695 12.5801 16.847C13.0252 17.15 13.469 17.4523 14.0433 17.8288C14.1897 17.9247 14.3294 18.0243 14.4655 18.1213C14.9834 18.4905 15.4487 18.8222 16.0235 18.7694C16.3575 18.7386 16.7026 18.4245 16.8778 17.4878C17.2919 15.274 18.1059 10.4775 18.294 8.50096C18.3105 8.32779 18.2897 8.10616 18.2731 8.00888C18.2564 7.91159 18.2216 7.77297 18.0952 7.67036C17.9454 7.54884 17.7142 7.52321 17.6108 7.52503C17.1406 7.53331 16.4193 7.78413 12.9479 9.22799Z"
+                      fill="#A7A7A7"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-top__social-icon">
+                <a class="footer-top__social-link" href="#">
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M1.75417 1.75417C0 3.50833 0 6.3325 0 11.9792V13.0208C0 18.6667 0 21.4917 1.75417 23.2458C3.50833 25 6.3325 25 11.9792 25H13.0208C18.6667 25 21.4917 25 23.2458 23.2458C25 21.4917 25 18.6675 25 13.0208V11.9792C25 6.33333 25 3.50833 23.2458 1.75417C21.4917 0 18.6675 0 13.0208 0H11.9792C6.33333 0 3.50833 0 1.75417 1.75417ZM4.94832 7.8125H6.77082C7.23666 7.8125 7.41166 8.01667 7.58666 8.52167C8.47832 11.1183 9.98166 13.3883 10.5992 13.3883C10.8317 13.3883 10.9375 13.2817 10.9375 12.6925V10.0083C10.8958 9.24423 10.6288 8.9137 10.4311 8.66889C10.309 8.51776 10.2133 8.3993 10.2133 8.23167C10.2133 8.0275 10.3875 7.8125 10.6767 7.8125H13.5417C13.9283 7.8125 14.0625 8.01917 14.0625 8.4825V12.0942C14.0625 12.48 14.23 12.6158 14.3458 12.6158C14.5775 12.6158 14.7708 12.48 15.1958 12.055C16.5092 10.5875 17.4358 8.32833 17.4358 8.32833C17.5517 8.0575 17.7658 7.8125 18.2292 7.8125H20.0517C20.6033 7.8125 20.72 8.09667 20.6033 8.4825C20.3717 9.545 18.1508 12.6733 18.1508 12.6733C17.9575 12.9825 17.88 13.1367 18.1508 13.4842C18.2464 13.6181 18.4503 13.8179 18.6834 14.0464C18.9219 14.2801 19.1909 14.5438 19.4058 14.7975C20.1892 15.6783 20.7792 16.4217 20.9433 16.9333C21.0942 17.4475 20.8333 17.7083 20.3125 17.7083H18.4892C18.001 17.7083 17.7554 17.435 17.2243 16.8438C16.9992 16.5932 16.7228 16.2856 16.355 15.9175C15.2725 14.875 14.81 14.74 14.5392 14.74C14.1725 14.74 14.0625 14.8442 14.0625 15.365V17C14.0625 17.4475 13.9192 17.7083 12.76 17.7083C10.8292 17.7083 8.70666 16.5358 7.20082 14.3725C4.94082 11.2058 4.32332 8.81083 4.32332 8.32833C4.32332 8.0575 4.42749 7.8125 4.94832 7.8125Z"
+                      fill="#A7A7A7"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top__card">
+            <h6 class="footer-top__title">Наш магазин</h6>
+            <ul class="footer-top__list">
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">О магазине</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Наши вакансии</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Контакты</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Мебель в рассрочку</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Бренды</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Возврат товара</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Сертификаты</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Обзоры</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top__card">
+            <h6 class="footer-top__title">Сервис</h6>
+            <ul class="footer-top__list">
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Ваши заказы</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Доставка и оплата</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Сборка мебели</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Хочу в подарок</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Список сравнения</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Карта сайта</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top__card">
+            <h6 class="footer-top__title">Помощь</h6>
+            <ul class="footer-top__list">
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Статьи</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Вопрос ответ</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Производители</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top__card footer-top__location">
+            <h6 class="footer-top__title">Как нас найти</h6>
+            <div class="footer-top__map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12621.206444138785!2d-122.40342381954352!3d37.73606781805061!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7ef994cbf2e7%3A0x92a2ab8cdbc9309c!2z0KHQsNC9LdCk0YDQsNC90YbQuNGB0LrQviDQodC60YPQuw!5e0!3m2!1sru!2sru!4v1640283543834!5m2!1sru!2sru"
+                width="331"
+                height="229"
+                style="border: 0; border-radius: 8px"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-bottom__copyright">©"Kharkivmebel, 2005 - 2021.</p>
+          <ul class="footer-bottom__list">
+            <li class="footer-bottom__item">
+              <svg
+                width="24"
+                height="16"
+                viewBox="0 0 24 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.5 2C21.776 2 22 2.224 22 2.5V13.5C22 13.776 21.776 14 21.5 14H2.5C2.224 14 2 13.776 2 13.5V2.5C2 2.224 2.224 2 2.5 2H21.5ZM24 2C24 0.896 23.104 0 22 0H2C0.895 0 0 0.896 0 2V14C0 15.104 0.895 16 2 16H22C23.104 16 24 15.104 24 14V2ZM10.447 5.63H11.742L10.932 10.383H9.637L10.447 5.63ZM14.354 7.538C13.901 7.318 13.624 7.171 13.627 6.949C13.627 6.751 13.862 6.54 14.369 6.54C14.793 6.533 15.099 6.626 15.339 6.722L15.455 6.777L15.631 5.747C15.374 5.651 14.972 5.547 14.47 5.547C13.19 5.547 12.288 6.192 12.281 7.115C12.274 7.798 12.925 8.179 13.416 8.406C13.92 8.639 14.09 8.787 14.087 8.996C14.084 9.314 13.684 9.46 13.312 9.46C12.794 9.46 12.518 9.388 12.093 9.211L11.926 9.135L11.744 10.199C12.047 10.332 12.606 10.447 13.187 10.453C14.549 10.453 15.433 9.816 15.443 8.829C15.446 8.288 15.101 7.877 14.354 7.538ZM20 10.384H18.798L18.64 9.672L16.981 9.67L16.708 10.384H15.348L17.272 6.029C17.408 5.72 17.64 5.635 17.95 5.635H18.951L20 10.384ZM18.429 8.698L18.129 7.326L18.041 6.916L17.869 7.37L17.353 8.698H18.429ZM8.55 5.633L7.282 8.874L7.147 8.215L6.693 6.031C6.614 5.731 6.387 5.641 6.105 5.63H4.016L4 5.729C4.508 5.852 4.962 6.029 5.361 6.25L6.513 10.378L7.884 10.376L9.923 5.633H8.55Z"
+                  fill="#383838"
+                />
+              </svg>
+            </li>
+            <li class="footer-bottom__item">
+              <svg
+                width="24"
+                height="16"
+                viewBox="0 0 24 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.5 2C21.776 2 22 2.224 22 2.5V13.5C22 13.776 21.776 14 21.5 14H2.5C2.224 14 2 13.776 2 13.5V2.5C2 2.224 2.224 2 2.5 2H21.5ZM24 2C24 0.896 23.104 0 22 0H2C0.895 0 0 0.896 0 2V14C0 15.104 0.895 16 2 16H22C23.104 16 24 15.104 24 14V2ZM17.164 7.188C17.164 8.949 15.737 10.376 13.976 10.376C12.215 10.376 10.788 8.949 10.788 7.188C10.788 5.427 12.216 4 13.977 4C15.738 4 17.164 5.427 17.164 7.188ZM10.434 7.188C10.434 6.101 10.927 5.127 11.7 4.477C11.213 4.175 10.639 4 10.023 4C8.262 4 6.835 5.427 6.835 7.188C6.835 8.949 8.262 10.376 10.023 10.376C10.638 10.376 11.213 10.201 11.7 9.899C10.927 9.249 10.434 8.275 10.434 7.188ZM8.712 11.979V11.448C8.712 11.248 8.585 11.113 8.379 11.112C8.271 11.11 8.159 11.144 8.082 11.263C8.024 11.169 7.931 11.112 7.802 11.112C7.712 11.112 7.623 11.139 7.554 11.238V11.134H7.37V11.98H7.556V11.511C7.556 11.364 7.637 11.286 7.763 11.286C7.885 11.286 7.947 11.366 7.947 11.509V11.98H8.133V11.511C8.133 11.364 8.218 11.286 8.34 11.286C8.466 11.286 8.526 11.366 8.526 11.509V11.98H8.712V11.979ZM11.464 11.132H11.163V10.875H10.977V11.132H10.805V11.3H10.977V11.686C10.977 11.883 11.053 11.999 11.271 11.999C11.351 11.999 11.443 11.974 11.501 11.933L11.448 11.775L11.285 11.823C11.193 11.823 11.163 11.766 11.163 11.681V11.299H11.464V11.132ZM13.034 11.111C12.928 11.111 12.859 11.161 12.811 11.235V11.132H12.629V11.978H12.813V11.503C12.813 11.363 12.873 11.285 12.994 11.285L13.109 11.306L13.166 11.132L13.034 11.111ZM10.66 11.2C10.571 11.142 10.449 11.111 10.315 11.111C10.101 11.111 9.963 11.214 9.963 11.382C9.963 11.52 10.066 11.605 10.255 11.632L10.342 11.644C10.443 11.658 10.491 11.685 10.491 11.733C10.491 11.799 10.424 11.836 10.298 11.836C10.171 11.836 10.078 11.795 10.016 11.747L9.928 11.89C10.029 11.964 10.156 12 10.295 12C10.539 12 10.681 11.885 10.681 11.724C10.681 11.575 10.569 11.497 10.385 11.471L10.298 11.459C10.218 11.448 10.155 11.432 10.155 11.376C10.155 11.314 10.215 11.277 10.316 11.277C10.424 11.277 10.528 11.318 10.58 11.35L10.66 11.2ZM15.593 11.111C15.487 11.111 15.418 11.161 15.37 11.235V11.132H15.188V11.978H15.372V11.503C15.372 11.363 15.432 11.285 15.553 11.285L15.668 11.306L15.725 11.132L15.593 11.111ZM13.22 11.556C13.22 11.813 13.399 12 13.672 12C13.799 12 13.884 11.972 13.977 11.899L13.888 11.75C13.819 11.8 13.746 11.826 13.667 11.826C13.52 11.824 13.412 11.718 13.412 11.555C13.412 11.392 13.52 11.286 13.667 11.284C13.747 11.284 13.819 11.311 13.888 11.36L13.977 11.211C13.885 11.138 13.8 11.11 13.672 11.11C13.399 11.111 13.22 11.299 13.22 11.556ZM14.945 11.556V11.133H14.761V11.236C14.703 11.16 14.614 11.112 14.494 11.112C14.257 11.112 14.071 11.298 14.071 11.556C14.071 11.815 14.257 12 14.494 12C14.614 12 14.703 11.952 14.761 11.876V11.979H14.945V11.556ZM14.26 11.556C14.26 11.407 14.357 11.285 14.517 11.285C14.669 11.285 14.772 11.402 14.772 11.556C14.772 11.71 14.669 11.827 14.517 11.827C14.357 11.826 14.26 11.704 14.26 11.556ZM12.038 11.111C11.79 11.111 11.617 11.292 11.617 11.555C11.617 11.824 11.798 11.999 12.051 11.999C12.178 11.999 12.295 11.967 12.398 11.88L12.308 11.744C12.237 11.801 12.147 11.833 12.062 11.833C11.943 11.833 11.835 11.778 11.809 11.626H12.438L12.442 11.555C12.438 11.292 12.275 11.111 12.038 11.111ZM12.034 11.276C12.153 11.276 12.229 11.35 12.248 11.481H11.809C11.829 11.359 11.903 11.276 12.034 11.276ZM16.654 11.556V10.793H16.47V11.236C16.412 11.16 16.323 11.112 16.203 11.112C15.966 11.112 15.78 11.298 15.78 11.556C15.78 11.815 15.966 12 16.203 12C16.323 12 16.412 11.952 16.47 11.876V11.979H16.654V11.556ZM15.969 11.556C15.969 11.407 16.066 11.285 16.226 11.285C16.378 11.285 16.481 11.402 16.481 11.556C16.481 11.71 16.378 11.827 16.226 11.827C16.066 11.826 15.969 11.704 15.969 11.556ZM9.75 11.556V11.133H9.565V11.236C9.507 11.16 9.418 11.112 9.298 11.112C9.061 11.112 8.875 11.298 8.875 11.556C8.875 11.814 9.061 12 9.298 12C9.418 12 9.507 11.952 9.565 11.876V11.979H9.75V11.556ZM9.064 11.556C9.064 11.407 9.161 11.285 9.321 11.285C9.473 11.285 9.576 11.402 9.576 11.556C9.576 11.71 9.473 11.827 9.321 11.827C9.162 11.826 9.064 11.704 9.064 11.556Z"
+                  fill="#383838"
+                />
+              </svg>
+            </li>
+            <li class="footer-bottom__item">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 0.25C6.98974 0.25 4.30884 1.62273 2.52051 3.76709L2.51025 3.7583C2.31552 3.99174 2.13356 4.23643 1.96094 4.48779C1.95955 4.48981 1.95793 4.49164 1.95654 4.49365C0.881887 6.06101 0.25 7.95909 0.25 10C0.25 15.3756 4.62436 19.75 10 19.75C10.6022 19.75 11.1906 19.6895 11.7637 19.5845C11.7656 19.5841 11.7676 19.5834 11.7695 19.583C12.095 19.5232 12.4168 19.4532 12.7305 19.3618L12.7261 19.3442C13.9281 18.9915 15.0379 18.4241 16 17.6699L14.0928 15.5371L11.9087 17.5029L7.97559 13.1362L8.99072 12.2222L6.33936 9.27783L7.41309 8.31104L4.74561 5.35059L8.96875 1.44824L10.4204 2.98779L12.6294 1L13.7954 2.29492L14.7124 1.47021C13.3152 0.696965 11.7107 0.25 10 0.25ZM15.8945 2.59668L14.9482 3.44922L15.8008 4.39697L16.7471 3.54443L15.8945 2.59668ZM12.6455 2.83398L11.0679 4.25488L12.4888 5.83398L14.0664 4.41309L12.6455 2.83398ZM8.87354 3.50342L6.74219 5.42236L8.66113 7.55371L10.7925 5.63477L8.87354 3.50342ZM2.99658 5.64941L5.29346 8.19971L4.22119 9.1665L5.22461 10.2798L6.87109 12.1094L5.85596 13.0234L10.5449 18.231C10.3648 18.2427 10.1833 18.25 10 18.25C5.43514 18.25 1.75 14.5649 1.75 10C1.75 8.3981 2.20961 6.91222 2.99658 5.64941ZM17.374 6.08301L16.4277 6.93555L17.2803 7.88184L18.2266 7.0293L17.374 6.08301ZM14.2627 6.37598L12.6851 7.79688L14.106 9.37598L15.6836 7.95508L14.2627 6.37598ZM10.5361 7.47754L8.40479 9.39648L10.3237 11.5278L12.4551 9.60889L10.5361 7.47754ZM18.8521 9.53271L17.9043 10.3853L18.7568 11.3315L19.7046 10.479L18.8521 9.53271ZM15.751 10.0732L14.1719 11.4941L15.5928 13.0732L17.1719 11.6523L15.751 10.0732ZM12.1899 11.4868L10.0586 13.4058L11.9775 15.5371L14.1089 13.6182L12.1899 11.4868ZM17.292 13.6035L15.7129 15.0244L17.1338 16.6035L18.7129 15.1826L17.292 13.6035Z"
+                  fill="#383838"
+                />
+              </svg>
+            </li>
+            <li class="footer-bottom__item">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2C17.514 2 22 6.486 22 12C22 17.514 17.514 22 12 22C6.486 22 2 17.514 2 12C2 6.486 6.486 2 12 2ZM12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM12 18V16.489H11.5V18H10.5V16.489H8.016L8.266 15H8.805C9.247 15 9.5 14.575 9.5 14.146V9.702C9.5 9.286 9.258 9 8.817 9H8V7.5H10.5V6H11.5V7.5H12V6H13V7.526C15.158 7.599 16.012 8.417 16.257 9.338C16.547 10.428 15.828 11.343 15.211 11.566C15.961 11.758 17 12.312 17 13.592C17 15.334 15.656 16.5 13 16.5V18H12ZM11.5 12.497V15C13.484 15 14.844 14.812 14.844 13.742C14.844 12.594 13.375 12.497 11.5 12.497ZM11.5 11.5C12.605 11.5 14.289 11.422 14.289 10.25C14.289 9.25 13.25 9 11.5 9V11.5Z"
+                  fill="#383838"
+                />
+              </svg>
+            </li>
+          </ul>
+          <a class="footer-bottom__link" href="#">Created & Powered by</a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.menu-aim.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

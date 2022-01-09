@@ -15,3 +15,39 @@
   color: #383838;
   margin-bottom: 50px;
 }
+.breadcrumbs {
+  //background-color: lightcoral;
+  padding-bottom: 50px;
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+  &__item + .breadcrumbs__item {
+    margin-left: 56px;
+  }
+  &__link {
+    @extend %OpenSans-400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #72bf44;
+  }
+  &__item {
+    position: relative;
+    &:before {
+      position: absolute;
+      content: url('../img/icon/arrow-breadcrumbs.svg');
+      width: 14px;
+      height: 10px;
+      left: -35px;
+      top: 7px;
+    }
+    &:first-child {
+      &:before {
+        content: none;
+      }
+      .breadcrumbs__link {
+        color: #39373a;
+      }
+    }
+  }
+}
